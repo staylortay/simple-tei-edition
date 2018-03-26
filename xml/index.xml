@@ -3,10 +3,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader>Digital edition based on a Harvard University library edition of Emily Dickinson poems
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Wizardsick TEI Mastery Exercise</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication information</p>
@@ -18,7 +18,32 @@
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poem"><lg type="stanza">
+           <l>ONE dignity delays for all,</l>
+         <l>One mitred afternoon.</l>
+         <l>None can avoid this purple,</l>
+         <l>Non evade this crown</l></lg>
+         <lg><l>Coash it insures, and footmen,</l>
+         <l>Chamber and state and throng ;</l>
+         <l>Bells, also, in the village,</l>
+         <l>As we ride grand along.</l></lg>
+         <lg><l>What dignified attendants,</l>
+         <l>What service when we pause !</l>
+         <l>How loyally parting</l>
+         <l>Their hundred hats they raise !</l></lg>
+         <lg><l>How pomp surpassing ermine,</l>
+         <l>When simple you and I</l>
+         <l>Present our meet escutcheon,</l>
+         <l>And claim the rank to die !</l></lg></div>
+         <div type="poem"><lg type="stanza">
+           <l>DELAYED till she had ceased to know,</l>
+           <l>Delayed till in its vest of snow</l>
+           <l>Her loving bosom lay.</l>
+           <l>An hour behind the fleeting breath,</l>
+           <l>Later by just an hour than death,--</l>
+           <l>Oh, lagging yesterday !</l>
+         </lg>
+         </div>
       </body>
   </text>
 </TEI>
